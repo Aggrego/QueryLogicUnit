@@ -1,5 +1,5 @@
 {
-  "name": "aggrego/command-logic-unit",
+  "name": "aggrego/query-logic-unit",
   "type": "library",
   "description": "",
   "minimum-stability": "dev",
@@ -13,16 +13,15 @@
   "require": {
     "php": ">=7.1",
     "aggrego/event-consumer": "dev-master",
-    "aggrego/command-consumer": "dev-master"
+    "aggrego/query-consumer": "dev-master"
   },
   "require-dev": {
     "wikimedia/composer-merge-plugin": "1.4.*",
-    "phpspec/phpspec": "^5.0",
-    "timitao/behat-symfony-container": "^1.1"
+    "phpspec/phpspec": "^5.0"
   },
   "autoload": {
     "psr-4": {
-      "Aggrego\\CommandLogicUnit\\": "src/"
+      "Aggrego\\QueryLogicUnit\\": "src/"
     }
   }
 }

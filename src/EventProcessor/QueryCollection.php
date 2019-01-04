@@ -11,11 +11,16 @@
 
 declare(strict_types = 1);
 
-namespace Aggrego\CommandLogicUnit\CommandConsumer;
+namespace Aggrego\QueryLogicUnit\EventProcessor;
 
-class Collection
+use Traversable;
+
+/**
+ * Interface CommandCollection
+ *
+ * Should contain command's collection
+ * @see \Aggrego\QueryConsumer\Query
+ */
+interface QueryCollection extends Traversable
 {
-    public function merge($transform): self
-    {
-    }
 }

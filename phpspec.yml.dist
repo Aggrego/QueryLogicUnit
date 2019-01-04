@@ -1,4 +1,4 @@
 suites:
   default:
-    namespace: Aggrego\CommandLogicUnit
-    psr4_prefix: Aggrego\CommandLogicUnit
+    namespace: Aggrego\QueryLogicUnit
+    psr4_prefix: Aggrego\QueryLogicUnit
